@@ -12,14 +12,14 @@ def extract_usernames(file_path):
     
     return usernames
 
-#extract users from followers & following
+
 followers = extract_usernames("followers.html")
 following = extract_usernames("following.html")
 
-#find users that are not following back
+
 not_following_back = following - followers
 
-# output for "not following back"
+
 print("\n-----ACCOUNTS NOT FOLLOWING ME BACK (USERNAME)------")
 if not_following_back:
     for username in not_following_back:

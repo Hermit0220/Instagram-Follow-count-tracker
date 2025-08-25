@@ -1,7 +1,7 @@
 # Instagram Follower count tracer
 ## By Hermit
 
-see who unfollowed you on Instagram!
+See who unfollowed you on Instagram!
 
 HOW TO RUN:
 1. Make sure file names are the following: following.html and followers.html
